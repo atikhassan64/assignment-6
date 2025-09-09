@@ -95,3 +95,32 @@
                 All Trees</li>
             </ul>
           </div>
+          
+          <div class="hidden sm:block">
+            <h1 class="text-[20px] font-semibold mt-[-25px]">Categories</h1>
+            <ul class="categoryContainer">
+              <li id="0"
+                class="allTrees mt-[15px] hover:bg-[#15803D] bg-[#15803D] cursor-pointer rounded-md hover:text-white text-white px-[15px] py-[10px]">
+                All Trees</li>
+              </ul>
+          </div>
+        </div>
+
+        <div class="cards sm:col-span-3 sm:grid sm:grid-cols-3 sm:mr-[25px]">
+          <div id="spinner" class="hidden absolute top-[600px] right-[50%]">
+            <span class="loading loading-dots loading-lg flex items-center justify-center mx-auto"></span>
+          </div>
+          <div id="plantContainer" class="cards sm:col-span-3 sm:grid sm:grid-cols-3 sm:grid-rows-2 sm:gap-[15px] ">
+          </div>
+        </div>
+        <div class="cart bg-white p-[15px] sm:h-[663px] rounded-md row-span-2">
+          <h1 class="font-semibold text-[20px]">Your Cart</h1>
+          <div id="cartContainer"></div>
+          <hr>
+          <div class="flex items-center justify-between">
+            <h1 class="font-bold">Total:</h1>
+            <h1>৳ <span id="totalPrice"></span></h1>
+          </div>
+        </div>
+      </div>
+    </section>
